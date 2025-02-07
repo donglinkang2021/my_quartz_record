@@ -4,13 +4,17 @@
 
 在配置环境之前先明确两个概念：
 
-- 笔记库`content_demo`：存放你的笔记文档的仓库，包含`.obsidian`文件夹
-- 编译库`quartz_demo`：我们把`clone`下来的`quartz`仓库称为编译库
+- 笔记库：存放你的笔记文档的仓库，包含`.obsidian`文件夹
+- 编译库：我们把`clone`下来的`quartz`仓库称为编译库
+
+在本教程中我们希望通过维护两个库的形式，笔记库就是平时写笔记就可以了，当然也可以维护一个单独的github仓库，我们是通过`npx quartz create`选择`Copy an exsiting folder`来实现迁移仓库。
 
 参考
 
 - [Setting up your GitHub repository](https://quartz.jzhao.xyz/setting-up-your-GitHub-repository)
 - [博客发布流程](https://8cat.life/others/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
+  - 这个教程仅供参考，觉得有点太复杂了
+- [How to publish your notes for free with quartz](https://www.youtube.com/watch?v=6s6DT1yN4dw&t=227s&ab_channel=NicolevanderHoeven)
 
 ## 本地编译库配置
 
