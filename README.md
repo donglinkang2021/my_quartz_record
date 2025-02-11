@@ -115,3 +115,17 @@ jobs:
 ```bash
 npx quartz sync
 ```
+
+## 之后的快速操作
+
+```bash
+cd quartz
+# such as `C:\Users\dongl\Documents\Note\ReinforcementLearning` 
+cp -r -exclude .obsidian,.git C:\Users\dongl\Documents\Note\ReinforcementLearning\* content
+
+# 本地编译查看效果
+npx quartz build --serve
+
+# 上传github发布
+npx quartz sync
+```
