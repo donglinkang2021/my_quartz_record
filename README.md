@@ -120,12 +120,28 @@ npx quartz sync
 
 ```bash
 cd quartz
-# such as `C:\Users\dongl\Documents\Note\ReinforcementLearning` 
-cp -r -exclude .obsidian,.git C:\Users\dongl\Documents\Note\ReinforcementLearning\* content
+# 更新content文件夹
+rm -r content/* -ErrorAction SilentlyContinue
+cp -r C:\Users\dongl\Documents\Note\ReinforcementLearning\* content -Exclude .obsidian,.git
 
 # 本地编译查看效果
 npx quartz build --serve
 
 # 上传github发布
 npx quartz sync
+```
+
+## 定制化
+
+- 修改`quartz\styles\custom.scss`部分来使得markdown中的图片
+
+```scss
+@use "./base.scss";
+
+// put your custom CSS here!
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 ```
