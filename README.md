@@ -119,8 +119,8 @@ npx quartz sync
 ## 之后的快速操作
 
 ```bash
-cd quartz
 # 更新content文件夹
+cd quartz
 rm -r content/* -ErrorAction SilentlyContinue
 cp -r C:\Users\dongl\Documents\Note\ReinforcementLearning\* content -Exclude .obsidian,.git
 
