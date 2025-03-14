@@ -123,6 +123,7 @@ npx quartz sync
 cd quartz
 rm -r content/* -ErrorAction SilentlyContinue
 cp -r C:\Users\dongl\Documents\Note\ReinforcementLearning\* content -Exclude .obsidian,.git
+# cp -r C:\Users\linc\Documents\Note\ReinforcementLearning\* content -Exclude .obsidian,.git
 
 # 本地编译查看效果
 npx quartz build --serve
